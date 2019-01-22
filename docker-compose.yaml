@@ -4,5 +4,5 @@ services:
    proxy:
      image: nginx
      ports:
-       - '100:80'
+       - '80:80'
 
