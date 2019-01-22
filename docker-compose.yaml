@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+   proxy:
+     image: nginx
+     ports:
+       - '100:80'
+
